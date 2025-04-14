@@ -1,12 +1,53 @@
-# React + Vite
+# 🛠️ React Dashboard с виджетами
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-19-blue)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-4.x-yellow)](https://vitejs.dev/)
+[![Tailwind](https://img.shields.io/badge/Tailwind-3.x-06B6D4)](https://tailwindcss.com/)
 
-Currently, two official plugins are available:
+<div align="center">
+  <img src="public/screenshot.png" alt="Демо панели" width="800"/>
+  <img src="public/screenshot-2.png" alt="Демо панели" width="800"/>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Особенности
 
-## Expanding the ESLint configuration
+###️ Ядро системы
+- Динамическое добавление/удаление виджетов
+- Drag-and-drop интерфейс через react-grid-layout
+- Сохранение состояния в localStorage
+- 2 режима работы: просмотр и редактирование
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Быстрый старт
+# 1. Установка
+git clone https://github.com/yourskynas/Dashboard.git
+cd dashboard-app
+
+# 2. Зависимости
+npm install
+
+# 3. Запуск
+npm run dev
+
+| Команда           | Действие                     |
+|-------------------|-----------------------------|
+| npm run dev     | Запуск dev-сервера         |
+| npm run build   | Production сборка          |
+| npm run preview | Локальный просмотр сборки |
+
+> 🔑 Секретное слово: LIQN (найдите в интерфейсе)
+
+## 📚 Технологии
+
+<div align="center">
+
+| Технология       | Назначение                  |
+|------------------|----------------------------|
+| React 19         | Базовый фреймворк          |
+| Vite             | Сборка проекта             |
+| Tailwind CSS     | Стилизация                 |
+| React Grid Layout| Drag-and-drop функционал   |
+| Framer Motion    | Анимации                   |
+
+</div>
+
+> 💡 Проект создан в рамках тестового задания
