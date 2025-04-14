@@ -1,0 +1,23 @@
+#root {
+  margin: 0 auto;
+}
+
+input::placeholder {
+  font-weight: 300; /* Можно использовать любое значение от 100 до 900 */
+  color: #9CA3AF; /* Цвет placeholder */
+  opacity: 1; /* Прозрачность */
+}
+
+/* Для Firefox */
+input::-moz-placeholder {
+  font-weight: 300;
+  color: #9CA3AF;
+  opacity: 1;
+}
+
+/* Для IE/Edge */
+input:-ms-input-placeholder {
+  font-weight: 300;
+  color: #9CA3AF;
+  opacity: 1;
+}
