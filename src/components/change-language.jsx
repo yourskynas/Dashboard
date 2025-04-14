@@ -1,9 +1,9 @@
 const ChangeLanguage = () => {
     const flags = [
-        { name: 'English', image: '/icons/Usa.png' },
-        { name: 'French', image: '/icons/France.png' },
-        { name: 'German', image: '/icons/Germany.png' },
-        { name: 'Italian', image: '/icons/Italy.png' }
+        { name: 'English', image: `${import.meta.env.BASE_URL}icons/Usa.png` },
+        { name: 'French', image: `${import.meta.env.BASE_URL}icons/France.png` },
+        { name: 'German', image: `${import.meta.env.BASE_URL}icons/Germany.png` },
+        { name: 'Italian', image: `${import.meta.env.BASE_URL}icons/Italy.png` }
     ];
     
     return (
