@@ -34,6 +34,11 @@ npm run dev
 | npm run build   | Production сборка          |
 | npm run preview | Локальный просмотр сборки |
 
+## 🌐 Демо-версия
+
+Доступна по адресу:  
+[https://yourskynas.github.io/Dashboard/](https://yourskynas.github.io/Dashboard/)
+
 > 🔑 Секретное слово: LIQN (найдите в интерфейсе)
 
 ## 📚 Технологии
@@ -46,7 +51,6 @@ npm run dev
 | Vite             | Сборка проекта             |
 | Tailwind CSS     | Стилизация                 |
 | React Grid Layout| Drag-and-drop функционал   |
-| Framer Motion    | Анимации                   |
 
 </div>
 
